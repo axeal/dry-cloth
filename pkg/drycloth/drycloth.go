@@ -33,7 +33,6 @@ func Run(ctx context.Context, accessToken string, preserveTag string, days int, 
 
 	pruneBefore := time.Now().Add(-time.Duration(days) * 24 * time.Hour)
 	log.Printf("Pruning droplets created before %s", pruneBefore.Format("2006-01-02T15:04:05Z"))
-	deleted := 0
 
 	for _, droplet := range droplets {
 		t, err := parseDate(droplet.Created)
