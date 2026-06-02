@@ -1,6 +1,6 @@
 module github.com/axeal/dry-cloth
 
-go 1.25
+go 1.26
 
 require (
 	github.com/digitalocean/godo v1.193.0
