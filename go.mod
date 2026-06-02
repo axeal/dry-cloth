@@ -3,7 +3,7 @@ module github.com/axeal/dry-cloth
 go 1.25
 
 require (
-	github.com/digitalocean/godo v1.171.0
+	github.com/digitalocean/godo v1.193.0
 	github.com/urfave/cli/v2 v2.27.7
 )
 
